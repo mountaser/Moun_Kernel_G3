@@ -3054,6 +3054,13 @@ config SPEED_LEVEL_INTERFACE
 
 endif
 
+config AUTOSMP
+	bool "AutoSMP Hotplug"
+	depends on SMP && HOTPLUG_CPU
+	help
+	  Automatically hotplugs the multiple CPU cores based on
+	  CPU load and suspend state.
+
 config KERNEL_TEXT_MPU_PROT
         bool "Enable xpu protection of kernel r/o sections"
         help
