@@ -336,7 +336,6 @@ static long voice_svc_ioctl(struct file *file, unsigned int cmd,
 	uint32_t user_payload_size = 0;
 	uint32_t payload_size;
 	unsigned long spin_flags;
-	uint32_t payload_size = 0;
 
 	pr_debug("%s: cmd: %u\n", __func__, cmd);
 
