@@ -132,19 +132,19 @@ mkdir outputls990
 mkdir outputvs985
 mkdir outputdualsim
 
-mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D850
+mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D850
 
-mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D851
+mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D851
 
-mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D855
+mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D855
 
-mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-F400
+mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-F400
 
-mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-LS990
+mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-LS990
 
-mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-VS985
+mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-VS985
 
-mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-dualsim
+mkdir /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-dualsim
 
 echo " Started Building the Kernels ! ";
 echo " ";
@@ -366,47 +366,47 @@ echo " ";
 echo " ";
 
 
-cp outputd850/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D850/zImage
+cp outputd850/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D850/zImage
 
-cp outputd850/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D850/dtb
+cp outputd850/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D850/dtb
 
-cp outputd851/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D851/zImage
+cp outputd851/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D851/zImage
 
-cp outputd851/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D851/dtb
+cp outputd851/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D851/dtb
 
-cp outputd855/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D855/zImage
+cp outputd855/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D855/zImage
 
-cp outputd855/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D855/dtb
+cp outputd855/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D855/dtb
 
-cp outputf400/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-F400/zImage
+cp outputf400/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-F400/zImage
 
-cp outputf400/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-F400/dtb
+cp outputf400/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-F400/dtb
 
-cp outputls990/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-LS990/zImage
+cp outputls990/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-LS990/zImage
 
-cp outputls990/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-LS990/dtb
+cp outputls990/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-LS990/dtb
 
-cp outputvs985/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-VS985/zImage
+cp outputvs985/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-VS985/zImage
 
-cp outputvs985/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-VS985/dtb
+cp outputvs985/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-VS985/dtb
 
-cp outputdualsim/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-dualsim/zImage
+cp outputdualsim/arch/arm/boot/zImage /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-dualsim/zImage
 
-cp outputdualsim/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-dualsim/dtb
+cp outputdualsim/arch/arm/boot/dt.img /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-dualsim/dtb
 
-cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D850
+cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D850
 
-cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D851
+cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D851
 
-cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D855
+cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D855
 
-cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-F400
+cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-F400
 
-cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-LS990
+cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-LS990
 
-cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-VS985
+cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-VS985
 
-cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-dualsim
+cp -r /home/mountaser/template/. /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-dualsim
 
 echo " Ziping Kernel Files ";
 echo " ";
@@ -437,36 +437,36 @@ echo " ";
 echo " ";
 
 ##########################################
-cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D850
-zip -r9 Moun_Kernel_V3.0-D850.zip * -x Moun_Kernel_V3.0-D850.zip
+cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D850
+zip -r9 Moun_Kernel_V3.0_N-D850.zip * -x Moun_Kernel_V3.0_N-D850.zip
 
-cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D851
-zip -r9 Moun_Kernel_V3.0-D851.zip * -x Moun_Kernel_V3.0-D851.zip
+cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D851
+zip -r9 Moun_Kernel_V3.0_N-D851.zip * -x Moun_Kernel_V3.0_N-D851.zip
 
-cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D855
-zip -r9 Moun_Kernel_V3.0-D855.zip * -x Moun_Kernel_V3.0-D855.zip
+cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D855
+zip -r9 Moun_Kernel_V3.0_N-D855.zip * -x Moun_Kernel_V3.0_N-D855.zip
 
-cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-F400
-zip -r9 Moun_Kernel_V3.0-F400.zip * -x Moun_Kernel_V3.0-F400.zip
+cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-F400
+zip -r9 Moun_Kernel_V3.0_N-F400.zip * -x Moun_Kernel_V3.0_N-F400.zip
 
-cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-LS990
-zip -r9 Moun_Kernel_V3.0-LS990.zip * -x Moun_Kernel_V3.0-LS990.zip
+cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-LS990
+zip -r9 Moun_Kernel_V3.0_N-LS990.zip * -x Moun_Kernel_V3.0_N-LS990.zip
 
-cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-VS985
-zip -r9 Moun_Kernel_V3.0-VS985.zip * -x Moun_Kernel_V3.0-VS985.zip
+cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-VS985
+zip -r9 Moun_Kernel_V3.0_N-VS985.zip * -x Moun_Kernel_V3.0_N-VS985.zip
 
-cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-dualsim
-zip -r9 Moun_Kernel_V3.0-dualsim.zip * -x Moun_Kernel_V3.0-dualsim.zip 
+cd /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-dualsim
+zip -r9 Moun_Kernel_V3.0_N-dualsim.zip * -x Moun_Kernel_V3.0_N-dualsim.zip 
 
 echo " uploading to Mega "; 
 
-megaput --path /Root/Moun_Kernel/V3.0 /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D850/Moun_Kernel_V3.0-D850.zip
-megaput --path /Root/Moun_Kernel/V3.0 /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D851/Moun_Kernel_V3.0-D851.zip
-megaput --path /Root/Moun_Kernel/V3.0 /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-D855/Moun_Kernel_V3.0-D855.zip
-megaput --path /Root/Moun_Kernel/V3.0 /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-F400/Moun_Kernel_V3.0-F400.zip
-megaput --path /Root/Moun_Kernel/V3.0 /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-LS990/Moun_Kernel_V3.0-LS990.zip
-megaput --path /Root/Moun_Kernel/V3.0 /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-VS985/Moun_Kernel_V3.0-VS985.zip
-megaput --path /Root/Moun_Kernel/V3.0 /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0-dualsim/Moun_Kernel_V3.0-dualsim.zip
+megaput --path /Root/Moun_Kernel/V3.0_N /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D850/Moun_Kernel_V3.0_N-D850.zip
+megaput --path /Root/Moun_Kernel/V3.0_N /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D851/Moun_Kernel_V3.0_N-D851.zip
+megaput --path /Root/Moun_Kernel/V3.0_N /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-D855/Moun_Kernel_V3.0_N-D855.zip
+megaput --path /Root/Moun_Kernel/V3.0_N /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-F400/Moun_Kernel_V3.0_N-F400.zip
+megaput --path /Root/Moun_Kernel/V3.0_N /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-LS990/Moun_Kernel_V3.0_N-LS990.zip
+megaput --path /Root/Moun_Kernel/V3.0_N /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-VS985/Moun_Kernel_V3.0_N-VS985.zip
+megaput --path /Root/Moun_Kernel/V3.0_N /home/mountaser/Moun_Kernel/Moun_Kernel_V3.0_N-dualsim/Moun_Kernel_V3.0_N-dualsim.zip
 echo " ";
 echo " ";
 echo " ";
