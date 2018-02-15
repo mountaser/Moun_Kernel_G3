@@ -247,7 +247,7 @@ echo " ";
 echo " ";
 echo " ";
 
-make -C $(pwd) O=outputd851 lineageos_d852_defconfig 
+make -C $(pwd) O=outputd852 lineageos_d852_defconfig 
 make -j7 -C $(pwd) O=outputd852
 
 echo " Started Building D855 ! ";
